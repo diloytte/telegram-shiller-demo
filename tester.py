@@ -1,8 +1,11 @@
 from telethon.sync import TelegramClient;
 from datetime import date
-from group_ids import group_ids_1, group_ids_2, group_ids_3, test_group_id, archivable_chats
-from shills import get_shill_random, get_shill_by_index
+from group_ids import group_ids_1, group_ids_2, group_ids_3, test_group_id, archivable_chats, priority_groups
+from shills import get_shill_by_index
 import os
+from telethon.tl.types import PeerChannel
+
+
 from dotenv import load_dotenv
 load_dotenv(dotenv_path='.env')
 
@@ -23,23 +26,27 @@ async def archive_chat(id):
 
 async def print_dialogs():
     dialogs = await client.get_dialogs()
+    value = -1
     for dialog in dialogs:
         # print(f"Name:{dialog.name}  ID: {dialog.id},  TYPE: {type(dialog.entity).__name__}")
-        if "lynk" in dialog.name:
+        if "ALPHA" in dialog.name:
             print(dialog.id)
 
 async def send_message(id,message):
     await client.send_message(id,message)
 
-async def shill(CA):
-    for group in all_groups:
-        await send_message(group,get_shill_by_index("CA",1))
+async def shill(ca,shill_index):
+    for group in priority_groups:
+        # await send_message(group,"D1TK6G8fcrW3wdrQd914YxhEeVKvbHLZz11YqUrTpump\n\n news based event, i think it has potential to go viral. dyor")
+        await send_message(group,get_shill_by_index(ca,shill_index))
 
 async def run():
     await client.connect()
 
-    await shill("CA") 
-    await archive_all_archivable()
+    await print_dialogs()
+    # await send_message(-1002014016057,"/")
+    # await shill("CA",3) 
+    # await archive_all_archivable()
 
 if __name__ == "__main__":
     with client:
