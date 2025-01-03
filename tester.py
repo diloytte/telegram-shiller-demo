@@ -29,8 +29,11 @@ async def print_dialogs():
     value = -1
     for dialog in dialogs:
         # print(f"Name:{dialog.name}  ID: {dialog.id},  TYPE: {type(dialog.entity).__name__}")
-        if "ALPHA" in dialog.name:
+        if "40" in dialog.name:
             print(dialog.id)
+            print(dialog.name)
+
+# vidi dal u dialogima koje si zapisao idalje ih imas.. vrati neki imo o njima.. dodaj 4tix
 
 async def send_message(id,message):
     await client.send_message(id,message)

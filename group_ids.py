@@ -52,6 +52,9 @@ priority_groups_5 = [-1002264692876,-1002163488444,-1002160252401,-1002030672706
 #                     Gake's B.      Lynk           Degem Cabal    Gambolers
 priority_groups_6 = [-1002019959139,-1002170346063,-1002289207641,-1002092585078]
 
+#                     40's L
+priority_groups_7 = [-1002222328448]
+
 
 priority_groups = priority_groups_1 + priority_groups_2 + priority_groups_3 + priority_groups_4 + priority_groups_5 + priority_groups_6
 
