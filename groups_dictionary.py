@@ -1,7 +1,7 @@
 # group_ids.py
 
 # Dictionary of group names and their IDs
-group_ids = {
+group_name_to_id = {
     "Cookery": -1002225011125, #
     "CrikeyGems": -1002166046392,#
     "WBR": -1002001023272, #

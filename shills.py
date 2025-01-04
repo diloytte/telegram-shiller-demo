@@ -7,7 +7,8 @@ shill_functions = {
     2: lambda x: f"Saw some wallets aping this:\n\n{x}\n\ncould be something?",
     3: lambda x: f"Aped this\n\n{x}\n\ncould be a runner, gamble tho",
     4: lambda x: f"CTO on this it seems\n\n{x}\n\ni put some just in case",
-    5: lambda x: f"Quant sent me this\n\n{x}\n\ndyor tho"
+    5: lambda x: f"Quant sent me this\n\n{x}\n\ndyor tho",
+    6: lambda x: f"This could be a tek\n\n{x}\n\ gamble tho"
 }
 
 def get_shill_random(argument):

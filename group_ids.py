@@ -22,8 +22,8 @@
 # Tombism = -1002386605422
 # The Trenches = -1002250343158
 
-#             Cookery  #       CrikeyGems  #   WBR  #         Cliff #        Feli CTO's! #   CCLC  #         Techsol Pub #
-group_ids_1 = [-1002225011125,-1002166046392,-1002001023272, -1002228238193, -1002232151687, -1002451333286, -1002229304166]
+#               Priv Trench        Cookery  #       CrikeyGems  #   WBR  #         Cliff #        Feli CTO's! #   CCLC  #         Techsol Pub #
+group_ids_1 = [-1002462648308,-1002225011125,-1002166046392,-1002001023272, -1002228238193, -1002232151687, -1002451333286, -1002229304166]
 
 #              CCLab  #         NFG  #          BBK PC #        Dumbo Circus#   Trench Net.#    Kitchen      BKH Public G.
 group_ids_2 = [-1002167336349, -1001790451709, -1002335127408, -1002264692876, -1002163488444, -1002318739589, -1002159178361]
